@@ -14,13 +14,13 @@ def _news_scraper(news_site_uid):
 
 
 if __name__ == '__main__':
-    parse = argparse.ArgumentParser() #Parseador de argumentos
+    parser = argparse.ArgumentParser() #Parseador de argumentos
 
-    news_site_choices = list(config()['news+_sites'].key())
-    parser.add_argument('news_site',
+    news_site_choices = list(config()['news_sites'].keys())
+    parser.add_argument('news_sites',
                         help='The news site that you want to scrape',
                         type=str,
                         choices=news_site_choices)
 
     args = parser.parse_args()
-    _news_scraper(args,news_site)
+    _news_scraper(args.news_sites)

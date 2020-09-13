@@ -6,3 +6,5 @@ news_sites:
     url: https://www.eluniversal.com.mx/
   elpais:
     url: https://elpais.com/mexico/
+  criteriohidalgo:
+    url: https://criteriohidalgo.com/
