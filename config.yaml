@@ -1,0 +1,8 @@
+#Generaremos una estructura de un mapa de mapas y las propiedades de mapas que se encuentran
+#dentro del mapa inicial van a ser las que vamos a utilizar.
+
+news_sites:
+  eluniversal:
+    url: https://www.eluniversal.com.mx/
+  elpais:
+    url: https://elpais.com/mexico/
