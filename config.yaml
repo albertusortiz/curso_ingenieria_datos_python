@@ -4,7 +4,13 @@
 news_sites:
   eluniversal:
     url: https://www.eluniversal.com.mx/
+    queries: 
+      homepage_article_links = '.field-content a'
   elpais:
     url: https://elpais.com/mexico/
+    queries: 
+      homepage_article_links = 'story_card story_columns  | flex flex_wrap align_content_start   container_row justify_space_between width_full  story_photo story_related a'
   criteriohidalgo:
     url: https://criteriohidalgo.com/
+    queries: 
+      homepage_article_links = 'post-box-title a'
