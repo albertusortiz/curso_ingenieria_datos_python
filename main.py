@@ -30,7 +30,7 @@ def _news_scraper(news_site_uid):
         if article:
             logger.info('Article fetched!!!')
             articles.append(article)
-            break
+            #break
 
     _save_articles(news_site_uid, articles)
 
